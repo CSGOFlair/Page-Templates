@@ -1,0 +1,31 @@
+.code{
+  /*background-color: #a8d1c8*/
+  font-family: 'Inconsolata';
+  background-color: #B8B8B8;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+#screwthis {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+/*font italics and bolds should be formatted as id="font set id" class="italic/bold"*/
+.italics {
+  font-style: italic;
+}
+
+#ft{
+  font-family: 'Oxygen';
+}
+
+#headgeneric{
+  font-family: 'Oxygen';
+}
+
+#footer {
+  font-family: 'Titillium Web', sans-serif;
+}
