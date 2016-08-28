@@ -5,9 +5,14 @@
 }
 
 .titleflex{
-
+  display: -webkit-flex;
+  display: flex;
+  font-family: 'Oxygen', sans-serif;
 }
 
 .subtitleflex{
-
+  display: -webkit-flex;
+  display: flex;
+  font-family: 'Oxygen', sans-serif;
+  float: initial;
 }
