@@ -1,0 +1,13 @@
+/*.titleflexbox is the flex container for the title, .titleflex and .subtitleflex are it's children*/
+.titleflexbox{
+  display: -webkit-flex;
+  display: flex;
+}
+
+.titleflex{
+
+}
+
+.subtitleflex{
+
+}
