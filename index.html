@@ -1,8 +1,77 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<script style="width:28%; height:40%;" src="https://gist.github.com/808dkaneohe/0fef590a7c5d27ada8ca5a9579ced83d.js"></script>
+  <h1 id="doc_title">
+		Page Title
+	</h1>
+	<div id="summary">
+		<h3>
+			What's covered?
+		</h3>
+		<p id="text">
+			Type a brief synopsis of the article here. Be specific!
+		</p>
+	</div>
+	<br>
+	<div id="primary">
+		<h2>
+			Primary Section
+		</h2>
+		<p id="text">
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+		</p>
+</div>
+<br>
+<h3>
+	Secondary Section
+</h3>
+<p id="text">
+	Please, always line break after every section to make reading easier.
+</p>
+
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+<!-- font-family: 'Roboto', sans-serif; -->
+<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
+<!-- font-family: 'Source Code Pro', monospace; -->
+<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<!-- jQuery -->
+
+<style>
+	span.code{ /*Inline code*/
+		font-family: 'Source Code Pro', monospace;
+		background-color: #e1e1e1;
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+		div.code{ /*Block of code (not inline with normal text)*/
+		font-family: 'Source Code Pro', monospace;
+		background-color: #e1e1e1;
+		border-radius: 10px;
+		line-height: 20px;
+		padding: 3px 10px 3px 10px;
+		max-width: 300px; /*Adjust inline as needed with !important*/
+		word-wrap: break-word;
+	}
+</style>
+<br>
+<br>
+<br>
+Formatting: ONLY FOR REFERENCE, DELETE WHEN DONE!
+
+<p>This is <span class="code">code</span></p>
+<div class="code">
+	<p>more code</p>
+	<p>code</p>
+	<p>code</p>
+	<p>code</p>
+	<p>codecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecodecode</p>
+</div>
 </body>
 </html>
+<input type="button" class="suggest" value="Suggest Edits">
+<input type="button" class="suggest-disabled" value="Sorry, editing this page is disabled.">

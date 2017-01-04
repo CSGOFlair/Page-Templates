@@ -1,4 +1,4 @@
-#suggest {
+.suggest {
       background-color: #C0C0C0;
       border: none;
       color: black;
@@ -11,7 +11,7 @@
       border-radius: 5px;
 }
 
-#suggest-disabled {
+.suggest-disabled {
     background-color: #E8E8E8;
     border: none;
     color: black;
@@ -25,10 +25,7 @@
     opacity: 0.3;
 }
 
-#articleheader {
-  color: #0080FF;
-  text-decoration: none;
-  font-size: 25px;
-  font-family: 'Titillium Web', sans-serif;
-}
+body {
+  font-family: 'Roboto', sans-serif;
 
+}
